@@ -12,3 +12,8 @@ func (c App) Index() revel.Result {
 	greeting := "Test String.."
 	return c.Render(greeting)
 }
+
+
+func (c App) HelloWorld() revel.Result{
+	return c.Render()
+}
