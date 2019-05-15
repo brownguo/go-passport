@@ -1,0 +1,50 @@
+hash: fa0a012856be0124346da8b77dc5032eb3edc92699891863e5e06aafe6f41977
+updated: 2019-05-15T21:13:36.148494+08:00
+imports:
+- name: github.com/inconshreveable/log15
+  version: 67afb5ed74ec82fd7ac8f49d27c509ac6f991970
+  subpackages:
+  - term
+- name: github.com/mattn/go-colorable
+  version: 3a70a971f94a22f2fa562ffcc7a0eb45f5daf045
+- name: github.com/mattn/go-isatty
+  version: c1975dc15c1d481e8da23f6ed313bb071136b98f
+- name: github.com/revel/config
+  version: a81c4105c36841d27e529f875b6062da7b8f986c
+- name: github.com/revel/log15
+  version: 793412a67da6f8d15fede4c38f5c66272478cb8a
+- name: github.com/revel/modules
+  version: 2737bfdaa8c41da68eae12bb18f7279b9f156048
+  subpackages:
+  - static/app/controllers
+  - testrunner/app
+  - testrunner/app/controllers
+- name: github.com/revel/pathtree
+  version: 41257a1839e945fce74afd070e02bab2ea2c776a
+- name: github.com/revel/revel
+  version: a3d7a7c23ca885cc5036d3641ede49ce4a14ee2e
+  subpackages:
+  - logger
+  - model
+  - session
+  - testing
+  - utils
+- name: github.com/twinj/uuid
+  version: 7bbe408d339787c56ec15568c947c0959db1b275
+- name: github.com/xeonx/timeago
+  version: 4e7d8c1f9a433881f64a7f87f51e494186857982
+- name: golang.org/x/net
+  version: a4d6f7feada510cc50e69a37b484cb0fdc6b7876
+  subpackages:
+  - websocket
+- name: golang.org/x/sys
+  version: a5b02f93d862f065920dd6a40dddc66b60d0dec4
+  subpackages:
+  - unix
+- name: gopkg.in/fsnotify/fsnotify.v1
+  version: c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9
+- name: gopkg.in/natefinch/lumberjack.v2
+  version: a96e63847dc3c67d17befa69c303767e2f84e54f
+- name: gopkg.in/stack.v0
+  version: 9b43fcefddd0178abdabf4d484ab0d695d0011db
+testImports: []
